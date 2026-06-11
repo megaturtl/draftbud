@@ -1,5 +1,5 @@
 {
-  description = "A Rust devShell example";
+  description = "CLI program to quickly get MC info for Draftout";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     rust-overlay.url = "github:oxalica/rust-overlay";
@@ -17,14 +17,16 @@
         pkgs = import nixpkgs {
           inherit system overlays;
         };
-        rustToolchain = pkgs.rust-bin.stable.latest.default;
+        rustToolchain = pkgs.rust-bin.stable.latest.default.override {
+          extensions = ["rust-src" "rust-analyzer"];
+        };
         rustPlatform = pkgs.makeRustPlatform {
           cargo = rustToolchain;
           rustc = rustToolchain;
         };
       in {
         packages.default = rustPlatform.buildRustPackage {
-          pname = "hellorust";
+          pname = "draftbud";
           version = "0.1.0";
           src = ./.;
           cargoLock.lockFile = ./Cargo.lock;
