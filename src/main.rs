@@ -26,11 +26,8 @@ enum Command {
 
 fn main() {
     let cli = Cli::parse();
-
     match cli.command {
-        Command::Recipe { item, condense } => {
-            println!("recipe: {:?}, condense: {:?}", item, condense);
-        }
+        Command::Recipe { item, condense } => commands::recipe::run(item, condense),
         Command::Stew => commands::stew::run(),
     }
 }
