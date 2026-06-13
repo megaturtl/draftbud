@@ -1,4 +1,5 @@
 mod commands;
+mod utils;
 
 use clap::{Parser, Subcommand};
 
@@ -10,9 +11,9 @@ struct Cli {
 
 #[derive(Subcommand)]
 enum Command {
-    /// Look up the recipe for an item (test)
+    /// Find all recipes for a given item
     Recipe {
-        /// What do you want the recipe of?
+        /// Item to get recipes for
         item: String,
 
         /// Condense required materials, e.g. 8 sticks -> 4 planks -> 1 log
