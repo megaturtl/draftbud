@@ -25,40 +25,55 @@
     ]
   },
   {
+    "category": "Combat",
+    "goals": [
+      "Kill a hostile mob",
+      "Kill a pillager with a crossbow",
+      "Kill a mob near a sculk catalyst",
+      "Kill raid captain",
+      "Fire a crossbow",
+      "Hit a mob with an arrow",
+      "Block an arrow with a shield",
+      "Hit 5 mobs with a spear in one charge",
+      "Hit a target block's centre from 30+ blocks (use trapdoor trick)"
+    ]
+  },
+  {
+    "category": "Animals",
+    "goals": [
+      "Tame any wild animal",
+      "Breed any two animals",
+      "Trade with a villager",
+      "Catch a fish with a bucket",
+      "Build an iron golem",
+      "Give an allay an item and let it deliver one back",
+      "Use a brush on armadillo for scute"
+    ]
+  },
+  {
+    "category": "Nether",
+    "goals": [
+      "Open a chest in a bastion",
+      "Give a piglin gold while not wearing armor",
+      "Ride a saddled strider",
+      "Place a dried ghast in water",
+      "Reflect a ghast's fireball",
+      "View a ghast through a spyglass"
+    ]
+  },
+  {
     "category": "Other",
     "goals": [
       "Sleep in a bed",
       "Plant any seed",
-      "Tame any wild animal",
-      "Breed any two animals",
-      "Trade with a villager",
-      "Kill a hostile mob",
-      "Block an arrow with a shield",
-      "Fire a crossbow",
-      "Hit a mob with an arrow",
-      "Kill a pillager with a crossbow",
       "Catch a fish with a rod",
-      "Catch a fish with a bucket",
-      "Open a chest in a bastion",
-      "Give a piglin gold while not wearing armor",
-      "Place a dried ghast in water",
       "Use a brewing stand",
+      "Enchant an item",
+      "Apply an armor trim",
       "Brush suspicious sand/gravel, then craft a decorated pot",
-      "Hit 5 mobs with a spear in one charge",
-      "Reflect a ghast's fireball",
-      "Ride a saddled strider",
       "View a parrot through a spyglass",
-      "View a ghast through a spyglass",
       "Use a compass on a lodestone",
       "Read a chiseled bookshelf's signal with a comparator",
-      "Hit a target block's centre from 30+ blocks (use trapdoor trick)",
-      "Enchant an item",
-      "Kill a mob near a sculk catalyst",
-      "Build an iron golem",
-      "Apply an armor trim",
-      "Give an allay an item and let it deliver one back",
-      "Kill raid captain",
-      "Use a brush on armadillo for scute",
       "Jump 8 blocks with a wind charge",
       "Open a vault with a trial key",
       "Wax/scrape copper (2)"
