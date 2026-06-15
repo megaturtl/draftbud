@@ -3,7 +3,7 @@ use std::collections::HashMap;
 use crate::utils::{humanize, strip_namespace};
 
 /// A normalized item or tag id, e.g. `oak_planks`
-#[derive(Clone, PartialEq, Eq, Hash, PartialOrd, Ord)]
+#[derive(Clone, PartialEq, Eq, Hash)]
 pub(super) struct ItemId(String);
 
 impl ItemId {
@@ -15,12 +15,6 @@ impl ItemId {
 
     pub(super) fn as_str(&self) -> &str {
         &self.0
-    }
-}
-
-impl std::fmt::Display for ItemId {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        f.write_str(&self.0)
     }
 }
 
@@ -50,8 +44,8 @@ impl Ingredient {
     /// from an item that happens to share its name.
     pub(super) fn token(&self) -> String {
         match self {
-            Ingredient::Item(id) => id.to_string(),
-            Ingredient::Tag(tag) => format!("#{tag}"),
+            Ingredient::Item(id) => id.as_str().to_owned(),
+            Ingredient::Tag(tag) => format!("#{}", tag.as_str()),
         }
     }
 }

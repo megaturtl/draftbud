@@ -74,6 +74,7 @@ pub(super) fn load_recipes() -> Result<RecipesByOutput, String> {
 /// tags. Returns `None` if the tag file can't be fetched or is empty.
 pub(super) fn resolve_tag_to_item(tag: &ItemId) -> Option<ItemId> {
     let version = mc_version();
+    let tag = tag.as_str();
     let url = format!("{API_BASE_URL}/{version}-data/data/minecraft/tags/item/{tag}.json");
     let json = utils::fetch_cached(&version, &format!("tag-{tag}.json"), &url).ok()?;
     let first = serde_json::from_str::<ApiTag>(&json)
