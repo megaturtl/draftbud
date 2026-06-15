@@ -24,9 +24,7 @@ fn merge_recipes_with_same_inputs(recipes: Vec<Recipe>) -> Vec<Recipe> {
 
     let mut merged: Vec<Recipe> = groups.into_values().collect();
     for recipe in &mut merged {
-        recipe
-            .methods
-            .sort_by(|a, b| method_order(a).cmp(&method_order(b)).then_with(|| a.cmp(b)));
+        recipe.methods.sort();
         recipe.methods.dedup();
     }
     merged
@@ -54,16 +52,4 @@ fn inputs_key(recipe: &Recipe) -> String {
         }
     };
     format!("{body} => {}", recipe.yields)
-}
-
-/// Display order for a recipe's methods (lower first)
-fn method_order(method: &str) -> u8 {
-    match method {
-        "crafting_shaped" | "crafting_shapeless" => 0,
-        "smelting" => 1,
-        "blasting" => 2,
-        "smoking" => 3,
-        "campfire_cooking" => 4,
-        _ => 5,
-    }
 }

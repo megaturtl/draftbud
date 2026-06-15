@@ -7,13 +7,9 @@ use crate::utils;
 use super::merge;
 use super::types::{Ingredient, ItemId, Layout, Recipe, RecipesByOutput};
 
-const DEFAULT_MC_VERSION: &str = "26.1";
+/// The Minecraft version to pull data for.
+const MC_VERSION: &str = "26.1";
 const API_BASE_URL: &str = "https://raw.githubusercontent.com/misode/mcmeta";
-
-/// The Minecraft version to pull data for (override with `DRAFTBUD_MC_VERSION` env variable).
-fn mc_version() -> String {
-    std::env::var("DRAFTBUD_MC_VERSION").unwrap_or_else(|_| DEFAULT_MC_VERSION.into())
-}
 
 #[derive(Deserialize)]
 struct ApiResult {
@@ -48,9 +44,9 @@ struct ApiTag {
 /// Fetch (or read from cache) the full recipe data and parse it into draftbud `Recipe`s,
 /// indexed by output item. Recipes that only differ by crafting method are merged.
 pub(super) fn load_recipes() -> Result<RecipesByOutput, String> {
-    let version = mc_version();
+    let version = MC_VERSION;
     let url = format!("{API_BASE_URL}/{version}-summary/data/recipe/data.min.json");
-    let json = utils::fetch_cached(&version, "recipes.json", &url)?;
+    let json = utils::fetch_cached(version, "recipes.json", &url)?;
 
     // Parse loosely, then convert each entry on its own, so an unexpected recipe
     // type is skipped rather than breaking the whole file.
@@ -73,10 +69,10 @@ pub(super) fn load_recipes() -> Result<RecipesByOutput, String> {
 /// Resolve a `#tag` reference to a single item id, following nested
 /// tags. Returns `None` if the tag file can't be fetched or is empty.
 pub(super) fn resolve_tag_to_item(tag: &ItemId) -> Option<ItemId> {
-    let version = mc_version();
+    let version = MC_VERSION;
     let tag = tag.as_str();
     let url = format!("{API_BASE_URL}/{version}-data/data/minecraft/tags/item/{tag}.json");
-    let json = utils::fetch_cached(&version, &format!("tag-{tag}.json"), &url).ok()?;
+    let json = utils::fetch_cached(version, &format!("tag-{tag}.json"), &url).ok()?;
     let first = serde_json::from_str::<ApiTag>(&json)
         .ok()?
         .values
