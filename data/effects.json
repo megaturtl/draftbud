@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Regeneration",
+    "methods": [
+      "Brew with Ghast Tear",
+      "Stew (Oxeye Daisy - Plains, Meadow, Flower Forest)",
+      "Golden apple",
+      "Totem",
+      "Beacon"
+    ]
+  },
+  {
+    "name": "Fire Resistance",
+    "methods": [
+      "Brew with Magma Cream",
+      "Stew (Allium - Flower Forest, Meadow)",
+      "Piglin bartering",
+      "Enchanted golden apple",
+      "Totem"
+    ]
+  },
+  {
+    "name": "Night Vision",
+    "methods": [
+      "Brew with Golden Carrot",
+      "Stew (Poppy - most grassy biomes)"
+    ]
+  },
+  {
+    "name": "Jump Boost",
+    "methods": [
+      "Brew with Rabbit's Foot",
+      "Stew (Cornflower - Plains, Meadow, Flower Forest)",
+      "Beacon"
+    ]
+  },
+  {
+    "name": "Saturation",
+    "methods": [
+      "Stew (Dandelion - most biomes)",
+      "Stew (Blue Orchid - Swamp)"
+    ]
+  },
+  {
+    "name": "Speed",
+    "methods": [
+      "Brew with Sugar",
+      "Beacon",
+      "Trial chamber spawner"
+    ]
+  },
+  {
+    "name": "Strength",
+    "methods": [
+      "Brew with Blaze Powder",
+      "Beacon"
+    ]
+  },
+  {
+    "name": "Water Breathing",
+    "methods": [
+      "Brew with Pufferfish",
+      "Conduit",
+      "Turtle Shell helmet",
+      "Buried treasure"
+    ]
+  },
+  {
+    "name": "Slow Falling",
+    "methods": [
+      "Brew with Phantom Membrane"
+    ]
+  },
+  {
+    "name": "Invisibility",
+    "methods": [
+      "Brew with Night Vision potion + Fermented Spider Eye",
+      "Buy from a wandering trader"
+    ]
+  },
+  {
+    "name": "Instant Health",
+    "methods": [
+      "Brew with Glistering Melon"
+    ]
+  },
+  {
+    "name": "Absorption",
+    "methods": [
+      "Golden apple",
+      "Enchanted golden apple",
+      "Totem"
+    ]
+  },
+  {
+    "name": "Resistance",
+    "methods": [
+      "Brew with Turtle Shell (Turtle Master)",
+      "Beacon",
+      "Enchanted golden apple"
+    ]
+  },
+  {
+    "name": "Haste",
+    "methods": [
+      "Beacon"
+    ]
+  },
+  {
+    "name": "Poison",
+    "methods": [
+      "Brew with Spider Eye",
+      "Stew (Lily of the Valley - Forest, Flower Forest, Dark Forest)",
+      "Bogged attack",
+      "Trial chamber dispenser",
+      "Eat spider eye",
+      "Eat pufferfish",
+      "Eat poisonous potato",
+      "Cave spider or bee sting",
+      "Witch splash potion"
+    ]
+  },
+  {
+    "name": "Weakness",
+    "methods": [
+      "Parched attack",
+      "Brew with Fermented Spider Eye",
+      "Stew (Tulip - Plains, Flower Forest)",
+      "Igloo basement",
+      "Witch splash potion"
+    ]
+  },
+  {
+    "name": "Nausea",
+    "methods": [
+      "Stew (Closed Eyeblossom - Pale Garden)",
+      "Eat a pufferfish"
+    ]
+  },
+  {
+    "name": "Blindness",
+    "methods": [
+      "Stew (Azure Bluet - Plains, Flower Forest, Meadow)"
+    ]
+  },
+  {
+    "name": "Wither",
+    "methods": [
+      "Stew (Wither Rose)",
+      "Take wither damage"
+    ]
+  },
+  {
+    "name": "Slowness",
+    "methods": [
+      "Brew with Swiftness potion + Fermented Spider Eye",
+      "Stray attack",
+      "Turtle Master potion"
+    ]
+  },
+  {
+    "name": "Hunger",
+    "methods": [
+      "Eat rotten flesh",
+      "Eat raw chicken",
+      "Eat a pufferfish",
+      "Husk attack"
+    ]
+  },
+  {
+    "name": "Mining Fatigue",
+    "methods": [
+      "Elder Guardian"
+    ]
+  },
+  {
+    "name": "Infested",
+    "methods": [
+      "Brew with Stone"
+    ]
+  },
+  {
+    "name": "Instant Damage",
+    "methods": [
+      "Brew with Healing potion + Fermented Spider Eye"
+    ]
+  },
+  {
+    "name": "Levitation",
+    "methods": [
+      "Shulker"
+    ]
+  },
+  {
+    "name": "Glowing",
+    "methods": [
+      "Spectral arrow (craftable with glowstone)",
+      "Piglin bartering",
+      "Bastion chests"
+    ]
+  },
+  {
+    "name": "Darkness",
+    "methods": [
+      "Warden",
+      "Sculk shrieker"
+    ]
+  },
+  {
+    "name": "Bad Omen",
+    "methods": [
+      "Drink an Ominous Bottle (raid captains or vaults)"
+    ]
+  },
+  {
+    "name": "Hero of the Village",
+    "methods": [
+      "Win a village raid"
+    ]
+  }
+]

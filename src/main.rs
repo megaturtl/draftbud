@@ -21,14 +21,24 @@ enum Command {
         condense: bool,
     },
 
-    /// List all suspicious stews
-    Stew,
+    /// List status effects and how to obtain
+    #[command(visible_alias = "eff")]
+    Effects,
+
+    /// List easy advancements
+    #[command(visible_alias = "adv")]
+    Advancements,
+
+    /// List easy foods
+    Foods,
 }
 
 fn main() {
     let cli = Cli::parse();
     match cli.command {
         Command::Recipe { item, condense } => commands::recipe::run(item, condense),
-        Command::Stew => commands::stew::run(),
+        Command::Effects => commands::effects::run(),
+        Command::Advancements => commands::advancements::run(),
+        Command::Foods => commands::foods::run(),
     }
 }

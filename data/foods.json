@@ -1,0 +1,300 @@
+[
+  {
+    "name": "Potato",
+    "methods": [
+      "Village farmland",
+      "Plains/taiga village chests",
+      "Shipwreck chests",
+      "Zombie drop"
+    ]
+  },
+  {
+    "name": "Baked Potato",
+    "methods": [
+      "Bake a potato in a furnace"
+    ]
+  },
+  {
+    "name": "Poisonous Potato",
+    "methods": [
+      "Farmland",
+      "Shipwreck chests"
+    ]
+  },
+  {
+    "name": "Beetroot",
+    "methods": [
+      "Village farmland"
+    ]
+  },
+  {
+    "name": "Beetroot Soup",
+    "methods": [
+      "Craft from 6 beetroot + 1 bowl",
+      "Snowy village chests"
+    ]
+  },
+  {
+    "name": "Carrot",
+    "methods": [
+      "Village farmland",
+      "Shipwrecks",
+      "Zombie drop"
+    ]
+  },
+  {
+    "name": "Golden Carrot",
+    "methods": [
+      "Craft from 8 gold nuggets + 1 carrot",
+      "Ruined portal chests"
+    ]
+  },
+  {
+    "name": "Apple",
+    "methods": [
+      "Drops from oak/dark oak leaves",
+      "Village weaponsmith, plains house, igloo chests",
+      "Trade with apprentice farmer villager"
+    ]
+  },
+  {
+    "name": "Bread",
+    "methods": [
+      "Craft from 3 wheat",
+      "Village and mineshaft chests",
+      "Trade with novice farmer villager"
+    ]
+  },
+  {
+    "name": "Dried Kelp",
+    "methods": [
+      "Cook kelp (furnace, smoker, or campfire)"
+    ]
+  },
+  {
+    "name": "Cookie",
+    "methods": [
+      "Craft from 2 wheat + 1 cocoa bean",
+      "Trade with journeyman farmer villager"
+    ]
+  },
+  {
+    "name": "Glow Berries",
+    "methods": [
+      "Found in lush caves",
+      "Ancient city and trial chamber chests"
+    ]
+  },
+  {
+    "name": "Sweet Berries",
+    "methods": [
+      "Harvest a sweet berry bush",
+      "Taiga village house chests"
+    ]
+  },
+  {
+    "name": "Melon Slice",
+    "methods": [
+      "Break a melon block"
+    ]
+  },
+  {
+    "name": "Raw Beef",
+    "methods": [
+      "Kill a cow/mooshroom",
+      "Village butcher chests"
+    ]
+  },
+  {
+    "name": "Raw Chicken",
+    "methods": [
+      "Kill a chicken"
+    ]
+  },
+  {
+    "name": "Raw Cod",
+    "methods": [
+      "Kill cod, dolphins, or polar bears",
+      "Go fishing",
+      "Village fisher barrels"
+    ]
+  },
+  {
+    "name": "Raw Salmon",
+    "methods": [
+      "Kill salmon or polar bears",
+      "Go fishing",
+      "Village fisher barrels"
+    ]
+  },
+  {
+    "name": "Tropical Fish",
+    "methods": [
+      "Kill tropical fish",
+      "Go fishing"
+    ]
+  },
+  {
+    "name": "Raw Porkchop",
+    "methods": [
+      "Kill pigs or hoglins",
+      "Village butcher and bastion stable chests"
+    ]
+  },
+  {
+    "name": "Raw Mutton",
+    "methods": [
+      "Kill sheep",
+      "Village butcher chests"
+    ]
+  },
+  {
+    "name": "Raw Rabbit",
+    "methods": [
+      "Kill a rabbit"
+    ]
+  },
+  {
+    "name": "Steak",
+    "methods": [
+      "Cook raw beef",
+      "Kill cows/mooshrooms with fire"
+    ]
+  },
+  {
+    "name": "Cooked Chicken",
+    "methods": [
+      "Cook chicken",
+      "Kill a chicken with fire",
+      "Trade with novice butcher villager"
+    ]
+  },
+  {
+    "name": "Cooked Cod",
+    "methods": [
+      "Cook cod",
+      "Kill cod/dolphins with fire",
+      "Trade with novice fisherman villager",
+      "Buried treasure chests"
+    ]
+  },
+  {
+    "name": "Cooked Salmon",
+    "methods": [
+      "Cook salmon",
+      "Kill salmon with fire",
+      "Trade with apprentice fisherman villager",
+      "Buried treasure chests"
+    ]
+  },
+  {
+    "name": "Cooked Mutton",
+    "methods": [
+      "Cook mutton",
+      "Kill sheep with fire"
+    ]
+  },
+  {
+    "name": "Cooked Porkchop",
+    "methods": [
+      "Cook raw porkchop",
+      "Kill pigs/hoglins with fire",
+      "Trade with apprentice butcher villager",
+      "Bastion chests"
+    ]
+  },
+  {
+    "name": "Cooked Rabbit",
+    "methods": [
+      "Cook rabbit",
+      "Kill a rabbit with fire"
+    ]
+  },
+  {
+    "name": "Rotten Flesh",
+    "methods": [
+      "Kill zombies",
+      "Igloo, ocean ruins, village temple, shipwreck, desert/jungle temple chests"
+    ]
+  },
+  {
+    "name": "Spider Eye",
+    "methods": [
+      "Kill spiders/cave spiders and witches",
+      "Desert temple chests"
+    ]
+  },
+  {
+    "name": "Mushroom Stew",
+    "methods": [
+      "Craft (2 mushrooms + bowl)",
+      "Use a bowl on a mooshroom"
+    ]
+  },
+  {
+    "name": "Suspicious Stew",
+    "methods": [
+      "Craft with stew recipe + a small flower",
+      "Shipwreck and ancient city chests"
+    ]
+  },
+  {
+    "name": "Rabbit Stew",
+    "methods": [
+      "Craft",
+      "Trade with a novice butcher villager"
+    ]
+  },
+  {
+    "name": "Pufferfish",
+    "methods": [
+      "Kill pufferfish or guardians",
+      "Go fishing"
+    ]
+  },
+  {
+    "name": "Pumpkin Pie",
+    "methods": [
+      "Craft from pumpkin + egg + sugar",
+      "Taiga village house chests",
+      "Trade with apprentice farmer villager"
+    ]
+  },
+  {
+    "name": "Honey Bottle",
+    "methods": [
+      "Use a glass bottle on a full bee nest/hive",
+      "Craft from a honey block + 4 glass bottles",
+      "Trial chamber vaults"
+    ]
+  },
+  {
+    "name": "Cake",
+    "methods": [
+      "Craft",
+      "Trade with expert farmer villager",
+      "Trial chamber intersection chests"
+    ]
+  },
+  {
+    "name": "Golden Apple",
+    "methods": [
+      "Craft from 8 gold ingots + 1 apple",
+      "Structure chests (desert temple, mineshaft, stronghold, mansion, igloo, ruined portal, ancient city)",
+      "Ominous trial vaults"
+    ]
+  },
+  {
+    "name": "Enchanted Golden Apple",
+    "methods": [
+      "Desert pyramid, dungeon, mansion, mineshaft, ruined portal, ancient city chests",
+      "Ominous trial vaults"
+    ]
+  },
+  {
+    "name": "Chorus Fruit",
+    "methods": [
+      "Break chorus plants in the End"
+    ]
+  }
+]
