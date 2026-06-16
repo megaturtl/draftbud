@@ -1,18 +1,24 @@
 [
   {
-    "category": "Obtain",
+    "category": "Other (Harder)",
     "goals": [
-      "Cobblestone",
-      "Stone Pickaxe",
-      "Iron",
-      "Iron Pickaxe",
-      "Iron Armor (any)",
-      "Bucket of Lava",
-      "Obsidian",
-      "Crying Obsidian",
-      "Diamond",
-      "Diamond Armor (any)",
-      "Blaze Rod"
+      "Use a brewing stand",
+      "Enchant an item",
+      "Apply an armor trim",
+      "Read a chiseled bookshelf's signal with a comparator",
+      "Jump 8 blocks with a wind charge",
+      "Open a vault with a trial key"
+    ]
+  },
+  {
+    "category": "Nether",
+    "goals": [
+      "Open a chest in a bastion",
+      "Give a piglin gold while not wearing armor",
+      "Ride a saddled strider",
+      "Place a dried ghast in water",
+      "Reflect a ghast's fireball",
+      "View a ghast through a spyglass"
     ]
   },
   {
@@ -35,7 +41,7 @@
       "Hit a mob with an arrow",
       "Block an arrow with a shield",
       "Hit 5 mobs with a spear in one charge",
-      "Hit a target block's centre from 30+ blocks (use trapdoor trick)"
+      "Hit a bullseye from 30+ blocks (trapdoor trick)"
     ]
   },
   {
@@ -51,32 +57,31 @@
     ]
   },
   {
-    "category": "Nether",
+    "category": "Obtain",
     "goals": [
-      "Open a chest in a bastion",
-      "Give a piglin gold while not wearing armor",
-      "Ride a saddled strider",
-      "Place a dried ghast in water",
-      "Reflect a ghast's fireball",
-      "View a ghast through a spyglass"
+      "Cobblestone",
+      "Stone Pickaxe",
+      "Iron",
+      "Iron Pickaxe",
+      "Iron Armor (any)",
+      "Bucket of Lava",
+      "Obsidian",
+      "Crying Obsidian",
+      "Diamond",
+      "Diamond Armor (any)",
+      "Blaze Rod"
     ]
   },
   {
-    "category": "Other",
+    "category": "Other (Easy)",
     "goals": [
       "Sleep in a bed",
       "Plant any seed",
       "Catch a fish with a rod",
-      "Use a brewing stand",
-      "Enchant an item",
-      "Apply an armor trim",
-      "Brush suspicious sand/gravel, then craft a decorated pot",
       "View a parrot through a spyglass",
       "Use a compass on a lodestone",
-      "Read a chiseled bookshelf's signal with a comparator",
-      "Jump 8 blocks with a wind charge",
-      "Open a vault with a trial key",
-      "Wax/scrape copper (2)"
+      "Wax copper",
+      "Scrape copper"
     ]
   }
 ]

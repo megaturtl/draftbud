@@ -1,5 +1,85 @@
 [
   {
+    "name": "Haste",
+    "methods": [
+      "Beacon"
+    ]
+  },
+  {
+    "name": "Levitation",
+    "methods": [
+      "Shulker"
+    ]
+  },
+  {
+    "name": "Hero of the Village",
+    "methods": [
+      "Win a village raid"
+    ]
+  },
+  {
+    "name": "Darkness",
+    "methods": [
+      "Warden",
+      "Sculk shrieker"
+    ]
+  },
+  {
+    "name": "Speed",
+    "methods": [
+      "Brew with Sugar",
+      "Beacon",
+      "Trial chamber spawner"
+    ]
+  },
+  {
+    "name": "Strength",
+    "methods": [
+      "Brew with Blaze Powder",
+      "Beacon"
+    ]
+  },
+  {
+    "name": "Slow Falling",
+    "methods": [
+      "Brew with Phantom Membrane"
+    ]
+  },
+  {
+    "name": "Instant Damage",
+    "methods": [
+      "Brew with Healing + Fermented Spider Eye"
+    ]
+  },
+  {
+    "name": "Invisibility",
+    "methods": [
+      "Brew with Night Vision + Fermented Spider Eye",
+      "Buy from a wandering trader"
+    ]
+  },
+  {
+    "name": "Instant Health",
+    "methods": [
+      "Brew with Glistering Melon"
+    ]
+  },
+  {
+    "name": "Resistance",
+    "methods": [
+      "Brew with Turtle Shell (Turtle Master)",
+      "Beacon",
+      "Enchanted golden apple"
+    ]
+  },
+  {
+    "name": "Wither",
+    "methods": [
+      "Stew (Wither Rose)",
+      "Take wither damage"
+    ]
+  },
+  {
     "name": "Regeneration",
     "methods": [
       "Brew with Ghast Tear",
@@ -7,6 +87,23 @@
       "Golden apple",
       "Totem",
       "Beacon"
+    ]
+  },
+  {
+    "name": "Water Breathing",
+    "methods": [
+      "Brew with Pufferfish",
+      "Conduit",
+      "Turtle Shell helmet",
+      "Buried treasure"
+    ]
+  },
+  {
+    "name": "Absorption",
+    "methods": [
+      "Golden apple",
+      "Enchanted golden apple",
+      "Totem"
     ]
   },
   {
@@ -27,6 +124,53 @@
     ]
   },
   {
+    "name": "Saturation",
+    "methods": [
+      "Stew (Dandelion - most biomes)",
+      "Stew (Blue Orchid - Swamp)"
+    ]
+  },
+  {
+    "name": "Mining Fatigue",
+    "methods": [
+      "Elder Guardian"
+    ]
+  },
+  {
+    "name": "Infested",
+    "methods": [
+      "Brew with Stone"
+    ]
+  },
+  {
+    "name": "Glowing",
+    "methods": [
+      "Spectral arrow (craftable with glowstone)",
+      "Piglin bartering",
+      "Bastion chests"
+    ]
+  },
+  {
+    "name": "Bad Omen",
+    "methods": [
+      "Drink an Ominous Bottle (raid captains or vaults)"
+    ]
+  },
+  {
+    "name": "Blindness",
+    "methods": [
+      "Stew (Azure Bluet - Plains, Flower Forest, Meadow)"
+    ]
+  },
+  {
+    "name": "Slowness",
+    "methods": [
+      "Brew with Swiftness + Fermented Spider Eye",
+      "Stray attack",
+      "Turtle Master potion"
+    ]
+  },
+  {
     "name": "Jump Boost",
     "methods": [
       "Brew with Rabbit's Foot",
@@ -35,82 +179,17 @@
     ]
   },
   {
-    "name": "Saturation",
+    "name": "Nausea",
     "methods": [
-      "Stew (Dandelion - most biomes)",
-      "Stew (Blue Orchid - Swamp)"
-    ]
-  },
-  {
-    "name": "Speed",
-    "methods": [
-      "Brew with Sugar",
-      "Beacon",
-      "Trial chamber spawner"
-    ]
-  },
-  {
-    "name": "Strength",
-    "methods": [
-      "Brew with Blaze Powder",
-      "Beacon"
-    ]
-  },
-  {
-    "name": "Water Breathing",
-    "methods": [
-      "Brew with Pufferfish",
-      "Conduit",
-      "Turtle Shell helmet",
-      "Buried treasure"
-    ]
-  },
-  {
-    "name": "Slow Falling",
-    "methods": [
-      "Brew with Phantom Membrane"
-    ]
-  },
-  {
-    "name": "Invisibility",
-    "methods": [
-      "Brew with Night Vision potion + Fermented Spider Eye",
-      "Buy from a wandering trader"
-    ]
-  },
-  {
-    "name": "Instant Health",
-    "methods": [
-      "Brew with Glistering Melon"
-    ]
-  },
-  {
-    "name": "Absorption",
-    "methods": [
-      "Golden apple",
-      "Enchanted golden apple",
-      "Totem"
-    ]
-  },
-  {
-    "name": "Resistance",
-    "methods": [
-      "Brew with Turtle Shell (Turtle Master)",
-      "Beacon",
-      "Enchanted golden apple"
-    ]
-  },
-  {
-    "name": "Haste",
-    "methods": [
-      "Beacon"
+      "Stew (Closed Eyeblossom - Pale Garden)",
+      "Eat a pufferfish"
     ]
   },
   {
     "name": "Poison",
     "methods": [
       "Brew with Spider Eye",
-      "Stew (Lily of the Valley - Forest, Flower Forest, Dark Forest)",
+      "Stew (Lily OT Valley - Forest, Flower/Dark Forest)",
       "Bogged attack",
       "Trial chamber dispenser",
       "Eat spider eye",
@@ -131,91 +210,12 @@
     ]
   },
   {
-    "name": "Nausea",
-    "methods": [
-      "Stew (Closed Eyeblossom - Pale Garden)",
-      "Eat a pufferfish"
-    ]
-  },
-  {
-    "name": "Blindness",
-    "methods": [
-      "Stew (Azure Bluet - Plains, Flower Forest, Meadow)"
-    ]
-  },
-  {
-    "name": "Wither",
-    "methods": [
-      "Stew (Wither Rose)",
-      "Take wither damage"
-    ]
-  },
-  {
-    "name": "Slowness",
-    "methods": [
-      "Brew with Swiftness potion + Fermented Spider Eye",
-      "Stray attack",
-      "Turtle Master potion"
-    ]
-  },
-  {
     "name": "Hunger",
     "methods": [
       "Eat rotten flesh",
       "Eat raw chicken",
       "Eat a pufferfish",
       "Husk attack"
-    ]
-  },
-  {
-    "name": "Mining Fatigue",
-    "methods": [
-      "Elder Guardian"
-    ]
-  },
-  {
-    "name": "Infested",
-    "methods": [
-      "Brew with Stone"
-    ]
-  },
-  {
-    "name": "Instant Damage",
-    "methods": [
-      "Brew with Healing potion + Fermented Spider Eye"
-    ]
-  },
-  {
-    "name": "Levitation",
-    "methods": [
-      "Shulker"
-    ]
-  },
-  {
-    "name": "Glowing",
-    "methods": [
-      "Spectral arrow (craftable with glowstone)",
-      "Piglin bartering",
-      "Bastion chests"
-    ]
-  },
-  {
-    "name": "Darkness",
-    "methods": [
-      "Warden",
-      "Sculk shrieker"
-    ]
-  },
-  {
-    "name": "Bad Omen",
-    "methods": [
-      "Drink an Ominous Bottle (raid captains or vaults)"
-    ]
-  },
-  {
-    "name": "Hero of the Village",
-    "methods": [
-      "Win a village raid"
     ]
   }
 ]

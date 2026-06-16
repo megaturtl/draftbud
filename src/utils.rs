@@ -93,15 +93,47 @@ struct NamedList {
 }
 
 /// Shared logic to print a simple table from a JSON config.
+/// Tiles entries into as many column pairs as the terminal can fit.
 pub fn print_named_lists(file: &str, default: &str, title: &str, headers: [&str; 2]) {
     let entries: Vec<NamedList> = match load_config(file, default) {
         Ok(entries) => entries,
         Err(e) => return eprintln!("error: {e}"),
     };
-    let rows = entries
+    if entries.is_empty() {
+        return print_listing(title, &headers, []);
+    }
+
+    // Widest name and widest method decide how much space one entry pair needs.
+    let name_w = entries
         .iter()
-        .map(|e| vec![Cell::new(&e.name), Cell::new(colored_list(&e.methods))]);
-    print_listing(title, &headers, rows);
+        .map(|e| e.name.chars().count())
+        .max()
+        .unwrap_or(0);
+    let meth_w = entries
+        .iter()
+        .flat_map(|e| &e.methods)
+        .map(|m| m.chars().count())
+        .max()
+        .unwrap_or(1);
+    let entry_w = name_w + meth_w + 6; // ponytail: rough per-cell padding/border estimate
+
+    let term_w = crossterm::terminal::size().map_or(80, |(c, _)| c as usize);
+    let pairs = (term_w / entry_w).clamp(1, entries.len());
+
+    let header_row: Vec<&str> = headers.iter().copied().cycle().take(pairs * 2).collect();
+    let mut table = new_table();
+    table.set_header(header_row);
+    for chunk in entries.chunks(pairs) {
+        let mut row = Vec::with_capacity(pairs * 2);
+        for e in chunk {
+            row.push(Cell::new(&e.name));
+            row.push(Cell::new(colored_list(&e.methods)));
+        }
+        row.resize_with(pairs * 2, || Cell::new(""));
+        table.add_row(row);
+    }
+    println!("{title}\n");
+    println!("{table}");
 }
 
 fn download(url: &str) -> Result<String, String> {
